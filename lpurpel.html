@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="Hadeer Emad">
+    <meta name="robots" content="index/follow">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="MobileOptimized" content="320">
+
+    <title>RARE PEPE | PEPE Farm</title>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+
+    <meta name="theme-color" content="#26002A">
+    <meta name="msapplication-navbutton-color" content="#26002A">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#26002A">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+<!--    <link rel="stylesheet" type="text/css" href="css/onepage-scroll.css">-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<!--===============================
+    LOADER
+===================================-->
+
+<div class="pre-load">
+    <div class="spinner">
+        <span class="cube1"></span>
+        <span class="cube2"></span>
+    </div>
+</div>
+
+
+
+<div class="main" id="singlePool">
+
+    <!--===============================
+        STAKE
+    ===================================-->
+
+    <section class="bg-7 position-relative part-7 overflow-hidden win-height min-height">
+
+        <img src="images/img-7.png" alt="image" class="main-image d-none d-lg-block img-float">
+
+        <nav id="mainNavbar2" class="navbar navbar-expand-lg px-md-0 pt-lg-4 position-absolute">
+            <div class="container text-uppercase">
+                <a class="navbar-brand m-0 text-white" href=""></a>
+
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarId2"
+                        aria-controls="navbarId2" aria-expanded="false" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarId2">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" title="PEPE’S STORY" href="index.html#story">PEPE’S STORY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" title="PEPE’S FARM" href="index.html#farm">PEPE’S FARM</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" title="PEPE’S PARADISE" href="index.html#paradise">PEPE’S PARADISE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" title="NFT MUSEUM" href="index.html#museum">NFT MUSEUM</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" title="FAQ" href="index.html#faq">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn py-2 px-3 btn-outline-white font-weight-light" title="Connect Wallet" id="connectWallet" href="#">Connect Wallet</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="mirror"></div>
+
+            </div>
+        </nav>
+
+        <div class="container py-3 pt-5 position-relative z-2">
+            <div class="row justify-content-end">
+                <div class="col-lg-7 col-xl-6">
+                    <div class="text-right text-uppercase pt-5 pb-4">
+                        <h3 class="main-heading text-space">PEPE'S Farm</h3>
+                        <h5><span class="poolName"></span> - EARN $KEK WITH $RPEPE</h5>
+                    </div>
+
+                    <h6 class="m-0 gothic-font">Earn $KEK with $RPEPE</h6>
+                    <div class="row text-center">
+                        <div class="col-sm-6">
+                            <div class="card my-2">
+                                <div class="card-body p-3 px-4">
+                                    <h5 class="gothic-font text-dark mb-1" id="KEKEarned">Loading...</h5>
+                                    <p class="mb-1 gothic-font text-uppercase text-muted">KEK TOKENS EARNED</p>
+                                    <h5 class="gothic-font text-dark mb-1 mt-4" id="LPStaked">Loading...</h5>
+                                    <p class="mb-1 gothic-font text-uppercase text-muted">LP TOKENS STAKED</p>
+                                    <div class="row mt-4">
+                                        <div class="col-md pt-2 pt-md-0 px-1">
+                                            <button class="btn btn-light btn-block rounded text-danger" id="harvestOne">Harvest</button>
+                                        </div>
+                                        <div class="col-md pt-2 pt-md-0 px-1">
+                                            <button class="btn btn-light btn-block rounded" id="harvestUnstakeOne">Harvest & Unstake</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="card my-2">
+                                <div class="card-body p-3 px-4">
+                                    <h5 class="gothic-font text-dark mb-1" id="RPepeBalance">Loading...</h5>
+                                    <p class="mb-1 gothic-font text-uppercase text-muted">RPEPE PL Tokens Available</p>
+                                    <img src="images/pool-1.png" alt="pool image" class="pool-img my-2">
+                                    <img src="images/ethereum.png" alt="pool image" class="pool-img my-2">
+                                    <div class="row mt-1">
+                                        <div class="col-md pt-2 pt-md-0 px-1">
+                                            <button class="btn btn-light btn-block rounded text-danger" id="stakeOne">Stake</button>
+                                        </div>
+                                        <div class="col-md pt-2 pt-md-0 px-1">
+                                            <button class="btn btn-light btn-block rounded" id="convertLP">Convert to LP</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="font-14 gothic-font mt-3">When you stake rPepe token, KEK token rewards will begin to accumulate. Staking and unstaking will incur a 2.5% burn for rPepe, but not for KEK.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+</div>
+
+
+
+<!--===============================
+    MODAL
+===================================-->
+
+<div class="modal fade" id="stakeOneModal" tabindex="-1" data-backdrop="static" data-keyboard="false" aria-labelledby="stakeOneModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm modal-dialog-centered">
+        <div class="modal-content card">
+            <div class="modal-body text-dark pb-1">
+                <p class="gothic-font text-center font-14">Deposit RPEPE LP Tokens</p>
+<!--                <p class="text-right m-0 gothic-font font-14"><span class="account"></span> RPEPE Available</p>-->
+                <form action="#" method="post">
+                    <div class="overflow-hidden rounded position-relative">
+                        <input type="number" id="stackInputOne" class="form-control border-0">
+                        <div class="position-absolute right">
+                            <span>RPEPE</span>
+                            <button class="btn-sm bg-light text-danger max-button">Max</button>
+                        </div>
+
+                        <div class="text-center mt-3">
+                            <div>
+                                <button class="btn btn-light rounded text-danger px-5" id="approve">
+                                    <span class="before">Approve</span>
+                                    <span class="after d-none"><div class="spinner-border" role="status"><span class="sr-only">Loading...</span></div> Pending</span>
+                                </button>
+                                <p class="font-14 mt-1 mb-0 d-none">Please approve staking contract to move your rPepe</p>
+                                <a href="" target="_blank" class="d-none text-muted btn-link view-a btn-block mt-2"></a>
+                            </div>
+
+                            <div>
+                                <button class="btn btn-light rounded text-danger mt-3 px-5" disabled id="confirmStakeOne">Confirm</button>
+                                <p class="font-14 mt-1 mb-0 d-none">Ready to stake?</p>
+                                <a href="" target="_blank" class="d-none text-muted btn-link view-a btn-block mt-2"></a>
+                            </div>
+                        </div>
+
+                        <div class="text-right mt-2">
+                            <button class="btn px-0 btn-link small text-muted" data-dismiss="modal" aria-label="Close">Cancel</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="convertLPModal" tabindex="-1" aria-labelledby="convertLPModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm modal-dialog-centered">
+        <div class="modal-content card">
+            <div class="modal-body text-dark">
+                <p class="gothic-font text-center font-14">Convert RPEPE Tokens</p>
+                <p class="text-right m-0 gothic-font font-14"><span id="rPepeAvaliable"></span> RPEPE Available</p>
+                <p class="text-right m-0 gothic-font font-14"><span id="ETHAvaliable"></span> ETH Available</p>
+                <form action="#" method="post" id="convertForm">
+                    <div class="overflow-hidden rounded position-relative">
+                        <div class="overflow-hidden rounded position-relative">
+                            <div class="position-relative">
+                                <input type="number" id="convertRpepe" class="form-control border-0 rounded-0">
+                            </div>
+                            <div class="position-relative">
+                                <input type="number" id="convertETH" class="form-control border-0 rounded-0">
+                            </div>
+                            <div class="position-absolute right mt-2">
+                                <div class="d-inline-block text-right mr-1 align-middle">
+                                    <span class="d-inline-block mb-4">RPEPE</span>
+                                    <br>
+                                    <span class="d-inline-block">ETH</span>
+                                </div>
+                                <button class="btn-sm bg-light text-danger max-convert-button d-inline-block align-middle">Max</button>
+                            </div>
+                        </div>
+
+
+                        <div class="row my-3 pr-5">
+                            <div class="col">To</div>
+                            <div class="col text-right"><span id="convertedLP" class="mr-1"></span> RPEPE LP</div>
+                        </div>
+                        <div class="text-center mt-3">
+                            <div>
+                                <button class="btn btn-light rounded text-danger px-5" id="approveConvert">
+                                    <span class="before">Approve</span>
+                                    <span class="after d-none"><div class="spinner-border" role="status"><span class="sr-only">Loading...</span></div> Pending</span>
+                                </button>
+                                <p class="font-14 mt-1 mb-0 d-none">Please approve staking contract to move your rPepe</p>
+                                <a href="" target="_blank" class="d-none text-muted btn-link view-a btn-block mt-2"></a>
+                            </div>
+
+                            <div>
+                                <button class="btn btn-light mt-3 rounded text-danger px-5" disabled id="confirmConvert">Confirm</button>
+                                <p class="font-14 mt-1 mb-0 d-none">Ready to stake?</p>
+                                <a href="" target="_blank" class="d-none text-muted btn-link view-a btn-block mt-2"></a>
+                            </div>
+                        </div>
+
+
+                        <div class="text-right mt-2">
+                            <button class="btn px-0 btn-link small text-muted" data-dismiss="modal" aria-label="Close">Cancel</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--===============================
+    CONFIRMATION MODAL
+===================================-->
+        
+<div class="modal fade" id="transactionModal" tabindex="-1" aria-labelledby="transactionModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content card">
+            <div class="modal-body text-center text-dark p-5">
+                <p class="m-0" id="transactionStatus">Transaction submitted successfully</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--===============================
+    SCRIPT
+===================================-->
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!--<script src="js/jquery.onepage-scroll.min.js"></script>-->
+<script src="js/script.js"></script>
+<script src="js/pool2-portal.js"></script>
+<script src="js/web3.min.js"></script>
+</body>
+
+</html>
